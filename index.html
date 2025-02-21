@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title> Stunning Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="assets/laralogo1.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+              <img
+                src="assets/logo-white.png"
+                alt="logo"
+                class="nav__logo-white"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#special">HOBBIES</a></li>
+          <li><a href="#menu">WORKS</a></li>
+          <li><a href="#event">EVENTS</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/lara.jpg" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>IT IS GOOD TIME FOR YOU TO KNOW ME</h2>
+          <h1>NOHNET<br /><span>LARA</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card">
+        <p>This is My Hobbies</p>
+        <h4>Dota</h4>
+      </div>
+      <div class="banner__card">
+        <p>This is My Hobbies</p>
+        <h4>Mobile Legends</h4>
+      </div>
+      <div class="banner__card">
+        <p>This is My Hobbies</p>
+        <h4>Valorant</h4>
+      </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+      <h3>ALWAYS FUN WITH GAMES</h3>
+      <h2 class="section__header">WORKS</h2>
+      <p class="section__description">
+        Created interactive games such as Breakout Game, Bat Eating Butterfly and Snake Game in Scratch, applying logic and creativity to engage players
+      </p>
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="assets/breakout.png" alt="order" />
+          <h4>Breakout Game</h4>
+          <p>
+            The game is a single-player version of Pong, where the player controls a paddle at the bottom of the screen to bounce a ball upward to break a wall of bricks.
+          </p>
+          <button class="btn">PLAY NOW</button>
+        </div>
+        <div class="order__card">
+          <img src="assets/bat-eating.png" alt="order" />
+          <h4>Bat Eating Butterfly</h4>
+          <p>
+            Bat Eating Butterfly is a simple game created in Scratch (a visual programming language) where a bat chases and eats butterflies. Since Scratch allows users to create and share their own projects, the exact gameplay may vary depending on the creator
+          </p>
+          <button class="btn">PLAY NOW</button>
+        </div>
+        <div class="order__card">
+          <img src="assets/snake.png" alt="order" />
+          <h4>Snake</h4>
+          <p>
+            The Snake Game is a classic arcade-style game where the player controls a growing snake that moves around the screen to eat food while avoiding collisions. It originated as a blockade-style game in the 1970s and gained massive popularity with versions on Nokia mobile phones in the late 1990s.
+          </p>
+          <button class="btn">PLAY NOW</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="assets/scratch.png" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>Discover</h3>
+          <h2 class="section__header">UPCOMING EVENTS</h2>
+          <p class="section__description">
+            Stay tuned for exciting upcoming events! We are constantly working on new projects, workshops, and interactive experiences designed to inspire, educate, and entertain. Whether it’s game development showcases, product launches, or hands-on coding challenges, our events offer something for everyone.
+
+Keep an eye on this space for updates, dates, and details on how you can participate. Don’t miss out on the opportunity to learn, connect, and be part of something amazing! 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <h3>choose your favorite </h3>
+        <h2 class="section__header">FOR MORE INQUIRIES</h2>
+        <form action="/">
+          <input type="text" placeholder="NAME" />
+          <input type="email" placeholder="EMAIL" />
+          <input type="date" placeholder="DATE" />
+          <input type="time" placeholder="TIME" />
+          <input type="number" placeholder="PEOPLE" />
+          <button class="btn" type="submit">SUBMIT</button>
+        </form>
+      </div>
+      <img
+        src="assets/scratch.png"
+        alt="reservation"
+        class="reservation__bg-1"
+      />
+      <img
+        src="assets/work4.jpg"
+        alt="reservation"
+        class="reservation__bg-2"
+      />
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/laralogo1.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            Welcome to my Stunning Website
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Dumaguete City Negros Oriental
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                nmlara.student@asiancollege.edu.ph
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
